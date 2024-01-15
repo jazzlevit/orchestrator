@@ -1,0 +1,25 @@
+{
+    "name": "jazzlevit/orchestrator",
+    "description": "Educto orchestrator service",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jazzlevit\\Orchestrator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jazzlevit\\Orchestrator\\EductoOrchestratorServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "jazzlevit",
+            "email": "jazzlevit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
